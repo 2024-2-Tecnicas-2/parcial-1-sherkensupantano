@@ -13,7 +13,7 @@ import java.util.ArrayList;
 public class Cliente {
     private String nombre;
     private String direccion;
-    private ArrayList<Producto> Lista;
+ 
     
     public Cliente(String nombre, String direccion, ArrayList<Producto> Lista) {
         this.nombre = nombre;
@@ -37,13 +37,7 @@ public class Cliente {
         this.direccion = direccion;
     }
 
-    public ArrayList<Producto> getLista() {
-        return Lista;
-    }
 
-    public void setLista(ArrayList<Producto> Lista) {
-        this.Lista = Lista;
-    }
 
     @Override
     public String toString() {

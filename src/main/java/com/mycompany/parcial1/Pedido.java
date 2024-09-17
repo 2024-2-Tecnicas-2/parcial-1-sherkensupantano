@@ -4,10 +4,36 @@
  */
 package com.mycompany.parcial1;
 
+import static com.mycompany.parcial1.Principal.inventario;
+import java.util.ArrayList;
+
 /**
  *
  * @author USUARIO
  */
 public class Pedido {
+    private Cliente vinculo;
+    private ArrayList<Producto> Lista
+
+    public Cliente getVinculo() {
+        return vinculo;
+    }
+
+    public void setVinculo(Cliente vinculo) {
+        this.vinculo = vinculo;
+    }
+
+    public ArrayList<Producto> getLista() {
+        return Lista;
+    }
+
+    public void setLista(ArrayList<Producto> Lista) {
+        this.Lista = Lista;
+    }
+
+    
+        public void agregarDispositivo(Producto pedido) {
+        pedido.add(dispositivo);
+    }
     
 }
